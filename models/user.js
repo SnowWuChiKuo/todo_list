@@ -13,8 +13,8 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true
-  }
-  createAt: {
+  },
+  createdAt: {
     type: Date,
     default: Date.now
   }
